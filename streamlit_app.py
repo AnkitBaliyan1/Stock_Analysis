@@ -47,7 +47,7 @@ def main():
     plt.legend()
     st.pyplot(fig2)
 
-    st.write("all done")
+    st.subheader("Thanks for giving it a shot..!!")
 
 
 if __name__ == '__main__':
