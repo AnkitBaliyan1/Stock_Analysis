@@ -25,7 +25,30 @@ def main():
     # if st.button("Submit"):
     df = yf.download(user_input, start, end)
     # print(df.head())
-    st.write("all good here.")
+
+    fig = plt.figure(figsize=(12, 6))
+    plt.plot(df[col], 'b', label='Stock price')
+    if ma_state:
+        df_ma = df[col].rolling(n).mean()
+        plt.plot(df_ma, 'r', label=f'MA{n}')
+    plt.title(f"Stock: {user_input} ({col})")
+    plt.xlabel('Time')
+    plt.ylabel('Price')
+    plt.legend()
+    st.pyplot(fig)
+
+    log_state = st.checkbox("Log")
+    st.subheader("Volume in Trade")
+    fig2 = plt.figure(figsize=(12, 6))
+    if log_state:
+        plt.plot(np.log(df['Volume']), 'g', label='Volume Trade (log)')
+    else:
+        plt.plot(df['Volume'], 'g', label='Volume Trade')
+    plt.legend()
+    st.pyplot(fig2)
+
+    st.write("all done")
+
 
 if __name__ == '__main__':
     main()
