@@ -50,7 +50,7 @@ def main():
         df_pct = df[col].pct_change(periods=1)
         df_volatile = df[col].pct_change().rolling(30).std()
         fig = plt.figure(figsize=(12, 6))
-        plt.plot(df_pct, 'p', label="%age change in price on daily basis")
+        plt.plot(df_pct, 'y', label="%age change in price on daily basis")
         plt.plot(df_volatile, 'r', label='Volatility Pattern: SD over time')
         plt.title(f"Risk and Volatility Analysis for {user_input} - {col}")
         plt.legend()
