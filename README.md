@@ -19,13 +19,13 @@ The Streamlit app provides users with the following functionalities:
 
 ## Glimpse of Streamlit App
 
-**User Input is the Stock Symbol**
+**User Input for Stock Symbol**
 ![Title_interface](images/streamlit_image_1.png)
-**Selecting Date**
+**Selecting the Date Range**
 ![Date_selection](images/streamlit_image_date_selection.png)
-**Choose the Moving Average Window**
+**Choosing the Moving Average Window**
 ![User_selection_for_MA_and_column_for_analysis](images/streamlit_image_trend+MA.png)
-**Risk and Volatility Analysis with Volume traded**
+**Risk, Volatility Analysis and Volume Traded**
 ![Risk_Volatility_Volume_Analysis](images/streamlit_image_risk+volume.png)
 
 ## Technologies Used
@@ -44,43 +44,4 @@ By leveraging the capabilities of Streamlit and integrating it with powerful dat
 Feel free to explore the application and delve into the exciting world of stock market analysis!
 
 ![Streamlit_App_link](https://basicstockanalysisbyankit.streamlit.app)
-![GitHub_Repository]()
-
-
-
-
-
-
-==================
-
-
-# 📈 Stock Market Analysis with Streamlit 📊
-
-## Problem Statement
-Understanding the dynamics of stock trends, risks, volatility, and trade volumes is crucial for informed investment decision-making. However, accessing and analyzing such data is often complex and time-consuming for the average user.
-
-## Approach
-This project aims to simplify the process of stock market analysis by leveraging the power of Python and the user-friendly Streamlit library. The application enables users to explore stock trends, risks, volatility, and trade volumes effortlessly.
-
-## Data Collection
-The project utilizes the yfinance library to fetch real-time stock market data based on user input and the specified date range. The data is dynamically retrieved from the web, ensuring that users can access the most up-to-date information for their desired stocks.
-
-## Analysis with Plots and Charts
-The project provides a comprehensive analysis of the selected stock, showcasing key insights through interactive visualizations. Users can explore stock trends through dynamic line charts, assess risks and volatility using KDE plots, and understand trade volumes through intuitive bar graphs.
-
-## Technologies Used
-- Python
-- Streamlit
-- yfinance
-- Pandas
-- Matplotlib
-- Seaborn
-
-## Way Forward
-The project aims to continually enhance the user experience by introducing additional features such as sentiment analysis, advanced technical indicators, and predictive modeling to empower users with even more comprehensive insights for making informed investment decisions.
-
-## Conclusion
-With the seamless integration of data analysis and user interaction, this application provides an intuitive and efficient platform for users to gain valuable insights into the stock market, enabling them to make well-informed investment decisions with confidence.
-
-Feel free to explore the application and delve into the exciting world of stock market analysis!
-
+![GitHub_Repository](https://github.com/AnkitBaliyan1/Stock_Analysis)
