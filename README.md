@@ -43,5 +43,5 @@ By leveraging the capabilities of Streamlit and integrating it with powerful dat
 
 Feel free to explore the application and delve into the exciting world of stock market analysis!
 
-![Streamlit_App_link](https://basicstockanalysisbyankit.streamlit.app)
-![GitHub_Repository](https://github.com/AnkitBaliyan1/Stock_Analysis)
+[Streamlit_App_link](https://basicstockanalysisbyankit.streamlit.app)
+[GitHub_Repository](https://github.com/AnkitBaliyan1/Stock_Analysis)
